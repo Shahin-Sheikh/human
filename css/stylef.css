@@ -1,0 +1,251 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.home{
+	background-image: url('../assests/img/main5.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+  position: absolute;
+  padding-left: 70px;
+  padding-top: 35px;
+  padding-bottom: 40px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li  {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+.rightmenu a{
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+
+#fisrtlist{
+	color: orange;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+.text h4{
+
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#buttonone{
+  	background-color: white;
+  	color: red;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
+
+#buttontwo{
+
+	background-color: white;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
+.signup{
+	position: absolute;
+	right: 620px;
+}
+
+
+/*==============Button Top Starts ====================*/
+#buttonTop {
+	cursor: pointer;
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	border-radius: 10px;
+	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+	background-color: #FCBB7B;
+}
+#buttonTop:hover {
+	background-color: darkorange;
+}
+#buttonTop:hover i {
+	color: white;
+}
+/*==============Button Top Ends ====================*/
+
+
+/*==============Copyrights Starts ====================*/
+.copyrightt { 
+	min-height:40px; background-color:#000000;
+}
+.copyrightt p { 
+ 	text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;
+}
+/*==============Copyrights Ends ====================*/
+
+
+
+
+/*********************************In main.php*********************************/
+#welcomeText{
+	position: absolute;
+	right: 15%;
+	top: 17%;
+	left: 15%;
+	text-align: center;
+	color: darkorange;
+	font-size: 90px;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+    display: none;
+}
+#parallaxMainIntro{
+	background-image: url('../img/main4.jpg');
+	height: 100%; 
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#borderhrintro {
+	margin-left: 0;
+	width: 50%;
+	background-color: grey;
+	height: 5px;
+	border-radius: 10px;
+}
+.news_img img{
+	width:auto;
+    height: 70px;
+}
+.newsTitleTab{
+ 	font-weight: bold;
+ 	text-decoration: underline;
+ 	color: black;
+}
+.mainParallax2 {
+   background-image: url('../img/main1.jpg');
+   height: 20%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerinfo {
+	background-color: #A4977B;
+	color: white;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+#footerinfoaboutus {
+	text-align: justify;
+}
+.footerlink { 
+ 	color:#d8d8d8; 
+ 	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+}
+a[class="footerlink"]:hover {
+ 	color: #ff9000;
+}
+.fa-facebook-square, .fa-twitter-square, .fa-youtube-square, .fa-instagram {
+	font-size: 40px;
+	color: black;
+	transition: color 0.2s linear 0s, background 0.2s linear 0s;
+}
+
+.fa-facebook-square:hover, .fa-twitter-square:hover, .fa-youtube-square:hover, .fa-instagram:hover {
+	color: #ff9000;
+}
+
+

@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+
+body {
+  margin: 10px 30px;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.round{
+    border-radius: 10px;
+    border: 2px solid #f7db80;
+    padding: 5px;
+    /* width:100%; */
+    /* height: 15px; */
+    margin-bottom: 10px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th{
+  text-align: left;
+  font-size:16px;
+  padding:8px;
+  background-color:#b2b2b2;;
+}
+
+tr:nth-child(odd){background-color: #f0f0f0;}
+
+td{
+    text-align: left;
+    font-size:14px;
+    padding:10px;
+}
+
+textarea {
+  font-family: inherit;
+  font-weight: inherit;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  height: 20px;
+}
+
+div{
+  padding: 1px;
+}
+
+.submit {
+  margin-top: 10px;
+}
+
+.effectiveDays {
+  /* display: none; */
+  cursor: not-allowed;
+}
