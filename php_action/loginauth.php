@@ -3,6 +3,7 @@ session_start(); // Starting Session
 $error = ''; // Variable To Store Error Message
 
 if (isset($_POST['submit'])) {
+    $invalid = "Your connection is lost";
        
     if (empty($_POST['selectbox']) || empty($_POST['username']) || empty($_POST['password'])) {
         $error = "Username or Password is invalid";
@@ -39,9 +40,11 @@ if (isset($_POST['submit'])) {
                 header("location: ../client_side/public.php"); // Redirecting To Profile Page     
             }
         else{ 
-            echo "Your are not logged in";
+            echo $error;
         }
+        echo $invalid;
     }
-    mysqli_close($conn); // Closing Connection
+    
+    //mysqli_close($conn); // Closing Connection
 }
 ?>

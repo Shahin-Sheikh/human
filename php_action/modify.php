@@ -5,13 +5,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Leave Application</title>
+    <title>Modify Information</title>
     <link rel="stylesheet" href="../css/insertjob.css">
     <script src="../js/modify.js"></script>
 </head>
 <body>
 <form name="contactForm" onsubmit="return validateForm()" action="../php_action/actmodify.php" method="post">
-    <h2>Leave Form</h2>
+    <h2>Modify Form</h2>
     <div class="row">
         <label>Your ID</label>
         <input type="text" name="id">
@@ -30,7 +30,7 @@
     </div>
        
     <div class="row">
-    <button class="btn btn-primary" name="update">Update</button>
+    <input type="submit" value="Update">
     </div>
 </form>
 </body>

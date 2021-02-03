@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Leave Application</title>
+    <title>Forgot Password</title>
     <link rel="stylesheet" href="../css/insertjob.css">
     <script src="../js/passreset.js"></script>
 </head>

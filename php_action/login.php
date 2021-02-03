@@ -16,8 +16,8 @@
             <p>Usertype</p>
             <select name="selectbox">
                     <option name="Admin" value="Admin">Admin</option>
-                    <option name="Employee" value="Employee">Employee</option>
                     <option name="Public" value="Public">Public</option>
+                    <option name="Employee" value="Employee">Employee</option>
             </select>
             <p>Username</p>
             <input id="name" name="username" type="text" name="" placeholder="Enter Username">
